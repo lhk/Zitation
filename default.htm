@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Zitationshilfe</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="formcolour.js"></script>
+</head>
+<body>
+    <h1>Einfach und schnell Zitate erstellen</h1>
+    
+    <div id="content">
+        <form >
+            <select id="dropDownMenu" name="type">
+                <option value="monographie">Monographie</option>
+                <option value="sammelband">Aufsatz im Sammelband</option>
+                <option value="fachzeitschrift">Aufsatz in einer Fachzeitschrift</option>
+                <option value="lexikonartikel">Lexikonartikel</option>
+            </select>
+        </form>
+        <form >
+            Nachname Autor<input  id="nachname_autor" type="text"/>
+            Vorname Autor <input id="vorname_autor" type="text"/>
+        </form>
+        <form >
+            Titel <input id="titel" type="text" />
+            Untertitel <input id="untertitel" type="text" />
+        </form>
+        <form id="herausgeber">
+            Nachname Herausgeber <input id="nachname_herausgeber" type="text" />
+            Vorname Herausgeber <input id="vorname_herausgeber" type="text"/>
+        </form>
+        <form>
+            Titel Band <input id="titel_band" type="text" />
+            Untertitel Band <input id="untertitel_band" type="text" />
+        </form>
+        <form>
+            Bandnummer <input id="bandnummer" type="text"/>
+        </form>
+        <form>
+            Erscheinungsort <input id="erscheinungsort" type="text" />
+        </form>
+        <form>
+            Erscheinungsjahr <input id="erscheinungsjahr" type="text" />
+        </form>
+        <form>
+            Seitenzahlen <input id="seitenzahlen" type="number" />
+        </form>
+        <button id="selectButton">Erzeuge ein Zitat</button>
+    </div>
+</body>
+</html>

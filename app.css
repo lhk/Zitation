@@ -1,0 +1,16 @@
+﻿body
+{
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic
+}
+
+.required {
+    background: #FFE6A3;
+}
+
+.unrequired {
+    background: #090691;
+}

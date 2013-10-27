@@ -1,0 +1,5 @@
+c:\users\barbara\documents\visual studio 2012\Projects\Zitation\Zitation\bin\Zitation.dll
+c:\users\barbara\documents\visual studio 2012\Projects\Zitation\Zitation\bin\Zitation.pdb
+c:\users\barbara\documents\visual studio 2012\Projects\Zitation\Zitation\obj\Debug\Zitation.csprojResolveAssemblyReference.cache
+c:\users\barbara\documents\visual studio 2012\Projects\Zitation\Zitation\obj\Debug\Zitation.dll
+c:\users\barbara\documents\visual studio 2012\Projects\Zitation\Zitation\obj\Debug\Zitation.pdb
